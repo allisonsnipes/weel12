@@ -53,7 +53,7 @@ public class SimpleCalculator extends Application {
 	 */
 	public void start(Stage myStage) {
 		myStage.setTitle("Simple Calculator");
-		FlowPane rootNode = new FlowPane(10, 10);
+		FlowPane rootNode = new FlowPane(20, 20);
 		rootNode.setAlignment(Pos.CENTER);
 		Scene myScene = new Scene(rootNode, 450, 330);
 		myStage.setScene(myScene);
@@ -64,9 +64,9 @@ public class SimpleCalculator extends Application {
 		TextField sum = new TextField();
 		
 		//set up the labels & response when the button is pushed
-		Label firstValue = new Label("First Value:");
-		Label secondValue = new Label("Second Value:");
-		Label sumIs = new Label("Sum is:");
+		Label firstValue = new Label("First Val:");
+		Label secondValue = new Label("Second Val:");
+		Label sumIs = new Label("Sum:");
 		response = new Label("");
 		
 		//set the field and text next to each other
